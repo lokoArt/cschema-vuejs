@@ -10,7 +10,7 @@
     </label>
 
     <div v-if="selectedSchema">
-      <template v-for="field in (schemas.find(x => x.id === selectedSchema)).schema">
+      <template v-for="field in (schemas.find(x => x.id === selectedSchema)).fields">
         <label>
           {{ field.name }}
           <input type="number" v-if="field.type == 'number'"/>
