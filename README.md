@@ -1,6 +1,6 @@
-# britecore
+# Description
 
-> A Vue.js project
+> A simple Vui.js app
 
 ## Build Setup
 
